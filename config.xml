@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "com.phonegap.example"
+versionCode = "00"
+version = "1.0.0" >
+<!-- nome della app -->
+<name>Saluto</name>
+<!-- descrizione -->
+<description>
+Applicazione di prova per salutare l'utente finale
+</description>
+<!-- autore -->
+<author href="https://build.phonegap.com">
+Marcelo Casas
+</author>
+<!-- abilita links esterni -->
+<allow-navigation href="*://*.getskeleton.com/*" />
+
+<!-- piattaforma di riferimento ed icona della app -->
+<platform name="android">
+<icon src="trump.jpg" density="ldpi" />
+<icon src="trump.jpg" density="mdpi" />
+<icon src="trump.jpg" density="hdpi" />
+<icon src="trump.jpg" density="xhdpi" />
+</platform>
+</widget>
